@@ -15,4 +15,4 @@
   Hidden information
 </p>
 <button (click)="handleHideInfo()">Display Details</button>
-<p *ngFor="let log of clicksArray" [ngStyle]="{backgroundColor: clicksArray.indexOf(log)<5?'':'blue', color: clicksArray.indexOf(log)<5?'':'white'}">{{ log }}</p>
+<p *ngFor="let log of clicksArray" [ngStyle]="{backgroundColor: clicksArray.indexOf(log)<4?'':'blue', color: clicksArray.indexOf(log)<5?'':'white'}">{{ log }}</p>
